@@ -14,70 +14,54 @@ int main(){
     float superPoder1, superPoder2;
 
     //monta a primeira carta
-    // printf("----------MONTE A PRIMEIRA CARTA----------\n");
-    // printf("Informe a letra que representa o estado: ");
-    // scanf("%c", &estado1); //armazena a letra do estado
+    printf("----------MONTE A PRIMEIRA CARTA----------\n");
+    printf("Informe a letra que representa o estado: ");
+    scanf("%c", &estado1); //armazena a letra do estado
 
-    // printf("Informe o código da carta: ");
-    // scanf("%s", &codigo1); //armazena o código da carta
+    printf("Informe o código da carta: ");
+    scanf("%s", &codigo1); //armazena o código da carta
 
-    // printf("Informe o nome da cidade: ");
-    // scanf("%s", &cidade1); //armazena o nome da cidade
+    printf("Informe o nome da cidade: ");
+    scanf("%s", &cidade1); //armazena o nome da cidade
 
-    // printf("Informe a população da cidade: ");
-    // scanf("%lu", &populacao1); //armazena a população da cidade
+    printf("Informe a população da cidade: ");
+    scanf("%lu", &populacao1); //armazena a população da cidade
 
-    // printf("Informe a área da cidade: ");
-    // scanf("%f", &area1); //armazena a área da cidade
+    printf("Informe a área da cidade: ");
+    scanf("%f", &area1); //armazena a área da cidade
 
-    // printf("Informe o PIB da cidade: ");
-    // scanf("%f", &pib1); //armazena o PIB da cidade
+    printf("Informe o PIB da cidade: ");
+    scanf("%f", &pib1); //armazena o PIB da cidade
 
-    // printf("Informe a quantidade de pontos turísticos da cidade: ");
-    // scanf("%d", &pontos1); //armazena a quantidade de pontos turísticos da cidade
-
-    estado1 = 'A'; //armazena a letra do estado
-    strcpy(codigo1, "A01"); //armazena o código da carta
-    strcpy(cidade1, "Cacoal"); //armazena o nome da cidade
-    populacao1 = 86887; 
-    area1 = 3793;
-    pib1 = 2800000000;
-    pontos1 = 22;
+    printf("Informe a quantidade de pontos turísticos da cidade: ");
+    scanf("%d", &pontos1); //armazena a quantidade de pontos turísticos da cidade
 
     densidade1 = (float) populacao1 / area1; //calcula a densidade populacional
     pibPerCapita1 = (float) pib1 / populacao1; //calcula o PIB per capita
     superPoder1 = (float) populacao1 + area1 + pib1 + (float) pontos1 + pibPerCapita1 + (1/densidade1); //calcula o super poder da carta1
     
     //monta a segunda carta
-    //printf("\n----------MONTE A SEGUNDA CARTA----------\n");
-    // printf("Informe a letra que representa o estado: ");
-    // scanf(" %c", &estado2); //armazena a letra do estado
+    printf("\n----------MONTE A SEGUNDA CARTA----------\n");
+    printf("Informe a letra que representa o estado: ");
+    scanf(" %c", &estado2); //armazena a letra do estado
 
-    // printf("Informe o código da carta: ");
-    // scanf("%s", &codigo2); //armazena o código da carta
+    printf("Informe o código da carta: ");
+    scanf("%s", &codigo2); //armazena o código da carta
 
-    // printf("Informe o nome da cidade: ");
-    // scanf("%s", &cidade2); //armazena o nome da cidade
+    printf("Informe o nome da cidade: ");
+    scanf("%s", &cidade2); //armazena o nome da cidade
 
-    // printf("Informe a população da cidade: ");
-    // scanf("%lu", &populacao2); //armazena a população da cidade
+    printf("Informe a população da cidade: ");
+    scanf("%lu", &populacao2); //armazena a população da cidade
 
-    // printf("Informe a área da cidade: ");
-    // scanf("%f", &area2); //armazena a área da cidade
+    printf("Informe a área da cidade: ");
+    scanf("%f", &area2); //armazena a área da cidade
 
-    // printf("Informe o PIB da cidade: ");
-    // scanf("%f", &pib2); //armazena o PIB da cidade
+    printf("Informe o PIB da cidade: ");
+    scanf("%f", &pib2); //armazena o PIB da cidade
 
-    // printf("Informe a quantidade de pontos turísticos da cidade: ");
-    // scanf("%d", &pontos2); //armazena a quantidade de pontos turísticos da cidade
-
-    estado2 = 'B'; //armazena a letra do estado
-    strcpy(codigo2, "B02"); //armazena o código da carta
-    strcpy(cidade2, "Ji-Paraná"); //armazena o nome da cidade
-    populacao2 = 130009; 
-    area2 = 6897;
-    pib2 = 3500000000;
-    pontos2 = 15;
+    printf("Informe a quantidade de pontos turísticos da cidade: ");
+    scanf("%d", &pontos2); //armazena a quantidade de pontos turísticos da cidade
 
     densidade2 = (float) populacao2 / area2; //calcula a densidade populacional
     pibPerCapita2 = (float) pib2 / populacao2; //calcula o PIB per capita
